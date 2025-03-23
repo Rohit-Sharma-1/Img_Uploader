@@ -58,7 +58,7 @@ app.post('/upload', upload.single('image'), async(req, res) => {  // copied from
     
     // res.json({message:"File Uploaded Successfully",cloudinaryRes})
     
-    // req.file is the `avatar` file
+    // req.file is the `image` file
     // req.body will hold the text fields, if there were any
   })
 
